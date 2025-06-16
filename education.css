@@ -1,9 +1,17 @@
-body {margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {margin-top: 0px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f5f9ff; color: #333;}
 
 .education-section {max-width: 900px; margin: 0 auto; padding: 60px 30px;
     background: #fff; box-shadow: 0 4px 10px rgba (0,0,0,08);
-    border-radius: 12px;}
+    border-radius: 12px;
+padding-top: 4px}
+
+.education-section h2 {font-size: 2rem;
+  color: #0057b7;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
 .education-timeline {
   display: flex;
@@ -64,3 +72,5 @@ body {margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 8px;
   padding: 10px;
 }
+
+.edu-item a {color: #0057b7; text-decoration: none; text-align: center;}
