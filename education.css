@@ -1,0 +1,66 @@
+body {margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f9ff; color: #333;}
+
+.education-section {max-width: 900px; margin: 0 auto; padding: 60px 30px;
+    background: #fff; box-shadow: 0 4px 10px rgba (0,0,0,08);
+    border-radius: 12px;}
+
+.education-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  padding-left: 30px;
+  border-left: 4px solid #0057b7;
+}
+
+.edu-item {
+  position: relative;
+  padding-left: 20px;
+}
+
+.edu-item::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 8px;
+  width: 16px;
+  height: 16px;
+  background: #0057b7;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.edu-year {
+  font-weight: bold;
+  color: #0057b7;
+  background: #e3efff;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.edu-item h3 {
+  margin: 0;
+  color: #003366;
+  font-size: 1.2rem;
+}
+.edu-item p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.edu-item:hover {
+  background: #f0f8ff;
+  transition: background 0.3s ease;
+  border-radius: 8px;
+  padding: 10px;
+}
