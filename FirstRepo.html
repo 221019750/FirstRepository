@@ -20,6 +20,15 @@
                     <a href="file:///C:/Users/User/OneDrive/Desktop/FirstRepo/Education.html">Education Section →</a>
                 </p>
             </div>
+            <div id="weatherInfo">Loading weather...</div><br>
+<script>
+navigator.geolocation.getCurrentPosition(p => 
+  fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${p.coords.latitude}&lon=${p.coords.longitude}&units=metric&appid=bed5af94e996128c9c16eaf690ad2a13`)
+    .then(r => r.json())
+    .then(d => document.getElementById("weatherInfo").innerText = 
+      `Weather in ${d.name}: ${d.main.temp}°C, ${d.weather[0].description}`)
+);
+</script>
         </section>
     </body>
 </html>
