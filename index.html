@@ -17,9 +17,9 @@
                     recognize problems, develop novel solutions and adapt to a changing environment. With the 
                     knowledge I have gained, I hope to enlighten others about our interdependence with nature and the 
                     impact of our actions on the ecosystem. My objective is to propose diverse approaches that we can 
-                    adopt to preserve it, so guaranteeing a healthy environment for present and upcoming generations<br>
+                    adopt to preserve it, so guaranteeing a healthy environment for present and upcoming generations<br><br>
                 </p>
-                <div class="weatherInfo">Loading weather...</div>
+                <div id="weatherInfo" class="weatherInfo">Loading weather...</div>
 <script>
 navigator.geolocation.getCurrentPosition(p => 
   fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${p.coords.latitude}&lon=${p.coords.longitude}&units=metric&appid=bed5af94e996128c9c16eaf690ad2a13`)
@@ -27,8 +27,8 @@ navigator.geolocation.getCurrentPosition(p =>
     .then(d => document.getElementById("weatherInfo").innerText = 
       `Weather in ${d.name}: ${d.main.temp}°C, ${d.weather[0].description}`)
 );
-</script><br>
-            </div>
+</script>
+            
             
 <div class="link">
     <a href="file:///C:/Users/User/OneDrive/Desktop/FirstRepo/Education.html">Education Section →</a>
