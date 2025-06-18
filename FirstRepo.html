@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>My Profile</title>
         <link rel="stylesheet" href="FirstRepo.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">​
     </head>
     <body>
         <section class="profile-sction">
@@ -16,11 +17,9 @@
                     recognize problems, develop novel solutions and adapt to a changing environment. With the 
                     knowledge I have gained, I hope to enlighten others about our interdependence with nature and the 
                     impact of our actions on the ecosystem. My objective is to propose diverse approaches that we can 
-                    adopt to preserve it, so guaranteeing a healthy environment for present and upcoming generations<br><br>
-                    <a href="file:///C:/Users/User/OneDrive/Desktop/FirstRepo/Education.html">Education Section →</a>
+                    adopt to preserve it, so guaranteeing a healthy environment for present and upcoming generations<br>
                 </p>
-            </div>
-            <div id="weatherInfo">Loading weather...</div><br>
+                <div class="weatherInfo">Loading weather...</div>
 <script>
 navigator.geolocation.getCurrentPosition(p => 
   fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${p.coords.latitude}&lon=${p.coords.longitude}&units=metric&appid=bed5af94e996128c9c16eaf690ad2a13`)
@@ -28,7 +27,25 @@ navigator.geolocation.getCurrentPosition(p =>
     .then(d => document.getElementById("weatherInfo").innerText = 
       `Weather in ${d.name}: ${d.main.temp}°C, ${d.weather[0].description}`)
 );
-</script>
+</script><br>
+            </div>
+            
+<div class="link">
+    <a href="file:///C:/Users/User/OneDrive/Desktop/FirstRepo/Education.html">Education Section →</a>
+</div><br><br><br>
+<Section class="bottom">
+<div class="down">
+<footer>
+
+  <a href="file:///C:/Users/User/OneDrive/Desktop/FirstRepo/WhatApp.html"><i class="fa fa-whatsapp"></i></a>
+
+  <a href="https://x.com/hleigh_?s=09"><i class="fa fa-twitter"></i></a>
+
+  <a href="https://www.linkedin.com/in/zandile-ngono/"><i class="fa fa-linkedin"></i></a>
+
+</footer>
+</div>
+</Section>
         </section>
     </body>
 </html>

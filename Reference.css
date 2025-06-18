@@ -52,3 +52,17 @@ color: #333;}
 .ref-card a:hover {
   text-decoration: underline;
 }
+a {color: #0057b7; text-decoration: none; text-align: center;}
+
+
+
+.down{
+
+color: grey;
+
+padding: 15px;
+
+margin-top: 0px; text-align: center; border-top: 0px; margin-left: 0px; margin-right: 0px;} 
+
+.weatherInfo {text-align: center; border-top: 0px; color: green;}
+.link {text-align: center;}

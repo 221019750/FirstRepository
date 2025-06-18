@@ -1,4 +1,4 @@
-body {margin-left: 400px; margin-right: 400px; margin-top: 120px; margin-bottom: 140px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+body {margin-left: 400px; margin-right: 400px; margin-top: 50px; margin-bottom:0px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     background: linear-gradient(to bottom right, #f0f8ff, #e6f0ff); color: #333;}
 
 .profile-section {display: flex; justify-content: center;
@@ -26,6 +26,17 @@ h2 {color: #0057b7; font-size: 1.5rem; margin: 20px 0 10px;}
     top:-100px; right: -100px; width: 300px; height: 300px;
 background: #0057b7; opacity: 0.1; border-radius: 50%; z-index: 1;}
 
-a {color: #0057b7; text-decoration: none;}
+a {color: #0057b7; text-decoration: none; text-align: center;}
 
 script {text-align: center; align-content: center;}
+
+.down{
+
+color: grey;
+
+padding: 15px;
+
+margin-top: 0px; text-align: center; border-top: 0px; margin-left: 0px; margin-right: 0px;} 
+
+.weatherInfo {text-align: center; border-top: 0px; color: green;}
+.link {text-align: center;}
